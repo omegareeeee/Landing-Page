@@ -8,14 +8,17 @@ body{
 .container{
     background-color: #1f2937;
     display: flex;
-    
+    flex-direction: column;
 }
 .header{
      display: flex;
      background-color: #1f2937;
-     flex-grow: 1;
+     flex-shrink: 0;
+     justify-content: space-around;
  }
-
+.header-links{
+    display: flex;
+}
 .Logo{
     color: #F9FAF8;
     font-size: 24px;
@@ -26,7 +29,6 @@ ul{
     margin: 0px;
     padding: 0px;
     gap: 30px;
-    margin-left: auto;
 }
 
 a{
@@ -36,13 +38,24 @@ a{
 
 .content{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 400px;
+    justify-content: space-evenly;
+    padding: 190px;
 }
 
-.image{
+.image-placeholder{
     display: flex;
+    background-color:  #6d747d;
+    width: 500px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .big{
@@ -54,7 +67,7 @@ a{
 .sub-text{
     font-size: 18px;
     color: #E5E7EB;
-    max-width: 400px;
+    max-width: 475px;
 }
 .sign-up-button{
     background-color: #3882f2;
