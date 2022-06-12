@@ -15,6 +15,7 @@ body{
      background-color: #1f2937;
      flex-shrink: 0;
      justify-content: space-around;
+     padding: 20px;
  }
 .header-links{
     display: flex;
