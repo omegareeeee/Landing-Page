@@ -101,5 +101,12 @@ img{
 
 .box-container{
     display: flex;
-    
+    justify-content: space-evenly;
+    gap: 50px;
 }
+
+.information-boxes{
+    max-width: 150px;
+    text-align: center;
+}
+
