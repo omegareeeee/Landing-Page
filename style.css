@@ -78,7 +78,7 @@ a{
     color: white;
     text-decoration: none;
     border: 0;
-    border-radius: 10%;
+    border-radius: 5px;
     width: 200px;
     height: 30px;
 }
@@ -150,13 +150,21 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 300px;
 }
 .call-to-action{
     display: flex;
-    width: 500px;
-    height: 200px;
+    min-width: 1000px;
+    min-height: 150px;
     color: #F9FAF8;
     background-color: #3882f6;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
 }
