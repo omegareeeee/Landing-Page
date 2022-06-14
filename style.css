@@ -24,6 +24,7 @@ body{
 .Logo{
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 900;
 }
 ul{
     display: flex;
@@ -41,7 +42,7 @@ a{
 .content{
     display: flex;
     justify-content: space-evenly;
-    padding: 190px;
+    padding:  170px;
 }
 
 .image-placeholder{
@@ -74,6 +75,12 @@ a{
 .sign-up-button{
     background-color: #3882f2;
     max-width: 75px;
+    color: white;
+    text-decoration: none;
+    border: 0;
+    border-radius: 10%;
+    width: 200px;
+    height: 30px;
 }
 
 img{
@@ -121,15 +128,35 @@ img{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    padding: 100px;
+    align-items: center;
 }
 
 .quote{
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    max-width: 800px;
 }
 
 .author{
     display: flex;
     justify-content: flex-end;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.action-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
 }
