@@ -14,25 +14,64 @@ body{
     justify-content: center;
     align-items: center;
 }
+/* Header*/
+.header{
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+}
 
+ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Main (Hero text)*/
 .main-container{
     background-color: #1f2937;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+}
+.description-container  h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.description-text{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
+.image-placeholder{
+    background-color: #6D747D;
+    color: white;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+/* Information*/
 .info-container{
 
 }
-
+/* Quote*/
 .quote-container{
     background-color: #E5E7EB;
 }
-
+/* Call to Action*/
 .call-to-action-container{
 
 }
-
 .footer{
     display: flex;
     background-color: #1f2937;
