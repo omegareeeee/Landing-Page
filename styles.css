@@ -11,10 +11,14 @@ body{
 .container{
     flex-grow: 1;
     display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 
 .main-container{
     background-color: #1f2937;
+    flex-direction: column;
+    justify-content: space-between
 }
 
 .info-container{
@@ -30,6 +34,11 @@ body{
 }
 
 .footer{
+    display: flex;
     background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
 }
 
