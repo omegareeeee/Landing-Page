@@ -19,8 +19,9 @@ button{
     background-color: #3882F6;
     border: none;
     color: white;
-    width: 75px;
+    width: 85px;
     height: 25px;
+    border-radius: 5px;
 }
 .main-container{
     background-color: #1f2937;
