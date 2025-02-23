@@ -86,7 +86,35 @@ a{
 
 /* Information*/
 .info-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.info-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.info-main{
+    display: flex;
+    gap: 50px;
+}
 
+.info-image{
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    width: 170px;
+    height: 170px;
+}
+
+.info-text{
+    max-width: 170px;
+    text-align: center;
+    padding-top: 10px;
+
+    font-size: 18px;
+    color: #4B5563;
 }
 /* Quote*/
 .quote-container{
