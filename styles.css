@@ -11,7 +11,7 @@ body{
     flex-grow: 1;
     flex-shrink: 0;
     display: flex; 
-    padding: 15px 35px 15px 35px;
+    padding: 150px 35px 150px 35px;
 }
 
 button{
@@ -25,7 +25,7 @@ button{
 .main-container{
     background-color: #1f2937;
     justify-content: space-around;
-    padding: 50px;
+    padding: 10px ;
 }
 /* left side of main (header logo and description)*/
 .logo{
@@ -44,13 +44,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.description-container  h1{
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
-    padding: 0;
-    margin: 0;
+    padding-bottom: 150px;
 }
 .description-text{
     font-size: 18px;
