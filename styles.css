@@ -28,6 +28,9 @@ button{
     padding: 50px;
 }
 /* left side of main (header logo and description)*/
+.logo{
+    flex: 0;
+}
 .left-main{
     display: flex;
     font-size: 24px;
@@ -37,6 +40,10 @@ button{
 }
 .description-container{
     max-width: 450px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .description-container  h1{
     font-size: 48px;
@@ -53,10 +60,10 @@ button{
 .right-main{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-end;
 }
 ul{
+    flex: 0;
     display: flex;
     list-style: none;
     margin: 0;
@@ -70,16 +77,23 @@ a{
     color: #E5E7EB;
 }
 
-.image-placeholder{
-    flex: 0 1 1;
+.image-placeholder-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-for-image{
     background-color: #6D747D;
     color: white;
     width: 450px;
     height: 175px;
+    font-size: 18px;
+
+    /* ceneter text*/
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
 }
 
 
@@ -165,6 +179,6 @@ a{
     color: white;
     justify-content: center;
     align-items: center;
-
+    padding: 30px;
 }
 
