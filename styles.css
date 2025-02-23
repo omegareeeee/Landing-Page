@@ -19,17 +19,43 @@ button{
     background-color: #3882F6;
     border: none;
     color: white;
+    width: 75px;
+    height: 25px;
 }
-
-/* Header*/
-.header{
+.main-container{
+    background-color: #1f2937;
+    justify-content: space-around;
+    padding: 50px;
+}
+/* left side of main (header logo and description)*/
+.left-main{
     display: flex;
     font-size: 24px;
     color: #f9faf8;
+    flex-direction: column;
     justify-content: space-between;
-    margin-bottom: auto; 
 }
-
+.description-container{
+    max-width: 450px;
+}
+.description-container  h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+.description-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/* right side of main (link and image)*/
+.right-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 ul{
     display: flex;
     list-style: none;
@@ -44,31 +70,12 @@ a{
     color: #E5E7EB;
 }
 
-/* Main (Hero text)*/
-.main-container{
-    background-color: #1f2937;
-    flex-direction: column;
-    justify-content: center;
-}
-.content{
-    display: flex;
-    justify-content: center;
-    margin-bottom: auto;
-}
-.description-container  h1{
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
-}
-.description-text{
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
 .image-placeholder{
+    flex: 0 1 1;
     background-color: #6D747D;
     color: white;
-    min-width: 500px;
+    width: 450px;
+    height: 175px;
     display: flex;
     justify-content: center;
     align-items: center;
