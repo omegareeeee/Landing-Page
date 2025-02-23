@@ -6,7 +6,6 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
-
 }
 .container{
     flex-grow: 1;
@@ -143,6 +142,22 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.cta-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 850px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+.cta-text{
+    color: white;
+}
+.cta-button{
+    border: 1px white solid;
 }
 .footer{
     display: flex;
